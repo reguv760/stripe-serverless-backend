@@ -11,6 +11,8 @@ service: serverless-stripe-backend
 custom:
   secrets: ${file(secrets.json)}
 
+app: rocknbox
+tenant: reguv760
 # The `provider` block defines where your service will be deployed
 provider:
   name: aws
